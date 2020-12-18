@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* header Line Css */
+header{
+  background-color: rgb(42, 42, 42);
+  height: 60px;
+  width: 100%;
+}
+
+/* header Left Line Css */
+.layout_header_left_area{
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+}
+.layout_header_left_area>a{
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding-left: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+
+.layout_header_left_area>img{
+  width: 40px;
+  height: 40px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+/* header center Line css */
+
+
+/* header Right Line Css */
+.layout_header_right_area{
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.layout_header_right_btn{
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+/* admin Line Css */
+.layout_admin{
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(161, 168, 174);
+  border-top: 2px solid black;
+}
+.layout_admin_text{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.layout_admin_text:hover{
+  background-color: red;
+}
+.layout_admin_text>a{
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+/* content body Line Css */
+.layout_content{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* side Bar Line Css */
+
+.layout_sideBar_left{
+  width: 200px;
+  height: 100vh;
+  background-color: rgb(160, 160, 160);
+  position: absolute;
+  z-index: 100;
+  overflow: scroll;
+
+  display: inline-block;
+}
+
+.layout_sideBar_left_img{
+  display: block;
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  padding-top: 40px;
+}
+.layout_sideBar_left_img>img{
+  width: 130px;
+  height: 130px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.layout_sideBar_left_content{
+  text-align: center;
+  padding-top: 20px;
+}
+.layout_sideBar_left_content>a{
+  text-decoration: none;
+  display: block;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+/* content Line Css */
+
+.layout_content_body{
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+
+  width: calc(100% - 200px);
+  height: 100%;
+  left: 200px;
+  display: inline-block;
+  position: absolute;
+}

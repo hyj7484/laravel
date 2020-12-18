@@ -1,0 +1,124 @@
+/* board content Main Css */
+.board_content{
+  width: 100%;
+  height: 100%;
+}
+/* board page Css */
+.board_content_onePage{
+  width: 100%;
+  /* height: 100%; */
+  margin-bottom: 50px;
+  display: block;
+}
+
+/* board title Css */
+.board_title{
+  width: 95%;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align:center;
+
+  line-height: 50px;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+}
+.board_title>h2{
+  margin: 0;
+}
+/* board content Css */
+
+.board_content_inText{
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top : 10px;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+}
+
+/* board comment Css */
+
+.board_comment{
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+}
+.board_comment_display{
+  display: none;
+}
+/* board comment view */
+.board_comment_inText{
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.board_comment_getText{
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top : 20px;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+}
+.board_comment_user{
+  width: 10%;
+  height: 100%;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+}
+.board_comment_user>p{
+  margin: 0;
+}
+.board_comment_content{
+  width: calc(80% - 2px);
+  height: 100%;
+  border : 1px solid rgba(150, 150, 150, 0.5);
+  float: left;
+}
+
+.board_comment_btn{
+  width: 10%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+.board_comment_btn>input{
+  width: 100%;
+  height: 100%;
+}
+
+/* board comment write */
+.board_comment_write{
+  width: 95%;
+  height: 80px;
+  margin: 0 auto;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  margin-bottom: 20px;
+}
+
+.board_comment_write_user{
+  width: 10%;
+  height: 100%;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+}
+.board_comment_write_user>p{
+  margin: 0;
+}
+.board_comment_write_input{
+  width: calc(80% - 2px);
+  height: 100%;
+  border : 1px solid rgba(150, 150, 150, 0.5);
+  float: left;
+}
+
+.board_comment_write_btn{
+  width: 10%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+.board_comment_write_btn>input{
+  width: 100%;
+  height: 100%;
+}

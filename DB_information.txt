@@ -1,0 +1,31 @@
+DB Column
+
+User Data Base :
+
+table : user
+
+user_id, string(20), primary Key
+user_pw, string(100),
+user_name, string(20)
+lastLogin, date
+
+tag Data Base :
+
+table : tag
+
+tagName, string(20) primary Key
+tagParent, string(20), default “root”
+tagNumber, Integer
+
+board Data Base :
+
+table : board
+
+board_id : auto_increment, primary key
+board_comment_id : integer, default(0)
+tag : stirng(20)
+title : string(20)
+content : text
+date : date
+
+

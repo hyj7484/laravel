@@ -1,0 +1,51 @@
+
+/* content main Line Css */
+.main_content_main{
+  background-image: url('/image/b2.jpg');
+  background-color: gray;
+  width: 100%;
+  height: 500px;
+  overflow: scroll;
+}
+.main_content_main_display{
+  display: inline-block;
+  float: left;
+}
+.main_content_body_information_table{
+  display: table;
+  width: 250px;
+  height: 300px;
+  padding-left: 30px;
+}
+.main_content_information{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  position:relative;
+  top: 100px;
+  background: white;
+  border-radius: 50px;
+}
+/* calendat Css */
+.main_content_calander{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position:relative;
+  top: 100px;
+  left: 200px;
+}
+.main_content_calander>img{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 50px;
+}
+.main_content_calander>p{
+  display: none;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(255, 253, 194);
+}
+
+/* content board Line Css */

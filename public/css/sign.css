@@ -1,0 +1,24 @@
+#sign_Div_Main{
+  width: 100%;
+  height: 100%;
+}
+#sign_Div_Table{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+#sign_Div_Text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.sign_Input_Text{
+  width: 300px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.sign_Input_Button{
+  width: 200px;
+  height: 30px;
+}

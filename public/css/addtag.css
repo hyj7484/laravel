@@ -1,0 +1,28 @@
+.addtag_display_inlneBlock{
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  background-color: rgb(197, 236, 162);
+}
+
+#addtag_display_left{
+  float: left;
+}
+#addtag_display_right{
+  float: right;
+}
+
+.addtag_table{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.addtag_inText{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#addTag>input{
+  margin-top: 20px;
+}
